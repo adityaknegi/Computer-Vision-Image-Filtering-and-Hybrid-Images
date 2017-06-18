@@ -21,18 +21,23 @@ hybrid_image = low_frequencies + high_frequencies;
 %%imgaussfilt(A,sigma) filters image A with a 2-D Gaussian smoothing kernel with standard deviation specified by sigma
 imgaussfilt(image1,5)
 
+
 low_frequencies = imgaussfilt(image1,5);
 high_frequencies = image2 - imgaussfilt(image2,5);
 
 
+
 ## HOW TO RUN
+Open matlab
 Firt go to  folder and type filename in matlab
->>A1      ##enter click
+'>>'A1      ##enter click
+
 
 
 
 ## OUTPUT 
 Following pairs of  people ( young and old lady) 
+
 Scaledown is used for far view 
 scale_factor = 0.6;
 
