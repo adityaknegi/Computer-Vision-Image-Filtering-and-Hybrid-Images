@@ -1,9 +1,12 @@
 ## OVERVIEW
 
 Step by step process
+
 **imresize first**
+
 [row, col] = size(image1(:,:,1));
 image2=imresize(image2,[row, col],'lanczos3');
+
 **Image filtering**
 imgaussfilt(image1,5)
 
