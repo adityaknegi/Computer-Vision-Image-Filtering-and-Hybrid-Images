@@ -40,7 +40,7 @@ high_frequencies = image2 - imgaussfilt(image2,5);
 
 ## HOW TO RUN
 Open matlab
-Firt go to  folder and type filename in matlab
+first go to  folder and type filename in matlab
 
 >>A1      ## Enter 
 
